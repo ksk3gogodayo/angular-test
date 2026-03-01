@@ -1,0 +1,9 @@
+<h1>{{ title }}</h1>
+
+<input [(ngModel)]="title">
+
+<app-counter></app-counter>
+
+@for (item of items; track item) {
+  <p>{{ item }}</p>
+}
